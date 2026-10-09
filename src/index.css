@@ -1,0 +1,151 @@
+@import "tailwindcss";
+
+@theme {
+  --color-background: #0f1418;
+  --color-foreground: #f0f2f5;
+
+  --color-card: #141a1f;
+  --color-primary: #3ab09e;
+  --color-primary-foreground: #ffffff;
+
+  --color-mute-foreground: #91a3b0;
+  --color-border: #2a3439;
+  --color-note: #00b9e8;
+  --radius: 0.75rem;
+  --color-star: #fdee00;
+  --color-highlight-scondary: #ffbf00;
+  --color-suface: #1a2329;
+}
+
+@layer base {
+  html {
+    scroll-behavior: smooth;
+  }
+
+  body {
+    background-color: var(--color-background);
+    color: var(--color-foreground);
+    font-family: "Poppins", sans-serif;
+  }
+}
+
+@layer components {
+  .glass {
+    background-color: color-mix(in srgb, #1a2329 50%, transparent);
+    backdrop-filter: blur(16px);
+    border: 1px solid color-mix(in srgb, var(--color-border) 50%, transparent);
+  }
+
+  .glass-strong {
+    background-color: color-mix(in srgb, #1a2329 80%, transparent);
+    backdrop-filter: blur(24px);
+    border: 1px solid color-mix(in srgb, var(--color-border) 60%, transparent);
+  }
+
+  .glow-text {
+    text-shadow: 0 0 30px
+      color-mix(in srgb, var(--color-highlight-scondary) 50%, transparent);
+  }
+
+  .glow-border {
+    box-shadow:
+      0 0 30px color-mix(in srgb, var(--color-primary) 50%, transparent),
+      inset 0 0 20px color-mix(in srgb, var(--color-primary) 5%, transparent);
+  }
+}
+
+@layer utilities {
+  @keyframes fade-in {
+    from {
+      opacity: 0;
+      transform: translateY(20px);
+      filter: blur(10px);
+    }
+    to {
+      opacity: 1;
+      transform: translateY(0px);
+      filter: blur(0px);
+    }
+  }
+
+  @keyframes slow-drift {
+    0%,
+    100% {
+      transform: translate(0, 0);
+    }
+    25% {
+      transform: translate(20px, -30px);
+    }
+    50% {
+      transform: translate(-15px, -20px);
+    }
+
+    75% {
+      transform: translate(30px, 10px);
+    }
+  }
+
+  @keyframes float {
+    0%,
+    100% {
+      transform: translatey(0);
+    }
+    50% {
+      transform: translatey(-10px);
+    }
+  }
+
+  @keyframes marquee {
+    0% {
+      transform: translateX(0);
+    }
+    100% {
+      transform: translateX(-50%);
+    }
+  }
+
+  .animate-fade-in {
+    animation: fade-in 0.8s ease-out both;
+  }
+
+  .animate-float {
+    animation: float 4s ease-in-out infinite;
+  }
+
+  .animate-marquee {
+    animation: marquee 25s linear infinite;
+  }
+  .animation-delay-100 {
+    animation-delay: 100ms;
+  }
+  .animation-delay-200 {
+    animation-delay: 200ms;
+  }
+  .animation-delay-300 {
+    animation-delay: 300ms;
+  }
+  .animation-delay-400 {
+    animation-delay: 400ms;
+  }
+  .animation-delay-500 {
+    animation-delay: 500ms;
+  }
+  .animation-delay-600 {
+    animation-delay: 600ms;
+  }
+  .animation-delay-800 {
+    animation-delay: 800ms;
+  }
+
+  /* ដាក់កូដ Media Query  */
+  @media (max-width: 767px) {
+    .animate-bounce,
+    .animate-spin,
+    .animate-pulse,
+    .animate-ping,
+    [class*="animate-"]:not(.animate-marquee, .animate-float) {
+      animation: none !important;
+      transition: none !important;
+    }
+  }
+}
