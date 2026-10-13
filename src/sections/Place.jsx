@@ -6,7 +6,7 @@ const places = [
     title: "ប្រាសាទតាមាន់",
     description:
       "ប្រាសាទតាមាន់តូច ស្ថិតនៅ ភូមិព្រៃវែង ឃុំគោកមន ស្រុកបន្ទាយអំពិល ខេត្តឧត្តរមានជ័យ។ ប្រាសាទតាមាន់ធំ ស្ថិតនៅ ភូមិតាមាន់សែនជ័យ ឃុំគោកមន ស្រុកបន្ទាយអំពិល ខេត្តឧត្តរមានជ័យ។",
-    image: "/public/ប្រាសារតាមាន់.webp",
+    image: "/public/pg5.webp",
     tags: "Google Map",
     mapLink: "https://maps.app.goo.gl/5YJMSssnN1horoA58?g_st=ic",
     link: "https://www.facebook.com/share/1JEfn9soMR/?mibextid=wwXIfr",
@@ -15,7 +15,7 @@ const places = [
     title: "រលុះធំ ឬដីដុះ",
     description:
       "រលុះធំ ឬ ដីដុះ ជារមណីយដ្ឋានធម្មជាតិមួយនៅតំបន់ក្រុងសំរោង ដែលមានទេសភាពធម្មជាតិប្លែក និងអាចក្លាយជាគោលដៅសម្រាប់អ្នកចូលចិត្តដើរលេង និងថតរូប។ ភូមិត្រពាំងទូង → សង្កាត់កូនក្រៀល → ក្រុងសំរោង → ខេត្តឧត្តរ",
-    image: "/public/ដីដុះ.webp",
+    image: "/public/pg2.webp",
     tags: "No Google Map",
     mapLink: "",
     link: "https://www.facebook.com/share/1JEfn9soMR/?mibextid=wwXIfr",
@@ -24,7 +24,7 @@ const places = [
     title: "ព្រៃផ្ដៅ",
     description:
       " ព្រៃផ្តៅ ជាតំបន់ធម្មជាតិដែលផ្តល់នូវបរិយាកាសស្ងប់ស្ងាត់ និងទេសភាពព្រៃឈើស្រស់ស្អាត សម្រាប់អ្នកដែលចង់សម្រាកពីភាពអ៊ូអរនៃទីក្រុង។ ជីវៈចម្រុះ សាកសមសម្រាប់ការសិក្សា និងទស្សនាធម្មជាតិ។ តំបន់សង្ឃរុក្ខវ័ន ខេត្តឧត្តរមានជ័យ។",
-    image: "/public/ព្រែផ្ដៅ.webp",
+    image: "/public/pg7.webp",
     tags: "Google Map",
     mapLink: "https://maps.app.goo.gl/7g4bCK3xsXWKoed76",
     link: "https://www.facebook.com/share/1JEfn9soMR/?mibextid=wwXIfr",
@@ -33,7 +33,7 @@ const places = [
     title: "ព្រៃសង្ឃរុក្ខវ័ន",
     description:
       "ព្រៃសង្ឃរុក្ខវ័ន ជាតំបន់ធម្មជាតិដ៏សំខាន់របស់ខេត្តឧត្តរមានជ័យ ដែលសម្បូរទៅដោយព្រៃឈើ និងជីវៈចម្រុះ សាកសមសម្រាប់ការសិក្សា និងទស្សនាធម្មជាតិ។ តំបន់សង្ឃរុក្ខវ័ន ខេត្តឧត្តរមានជ័យ",
-    image: "/public/ព្រៃសង្ឃរុក្ខវ័ន.webp",
+    image: "/public/pg8.webp",
     tags: "Google Map",
     mapLink: "https://maps.app.goo.gl/s6biDyNDgGgpeKtr7",
     link: "https://www.facebook.com/share/1JEfn9soMR/?mibextid=wwXIfr",
@@ -42,7 +42,7 @@ const places = [
     title: "ប្រាសាទ ត្រពាំងប្រាសាទ",
     description:
       "ត្រពាំងប្រាសាទ ជាតំបន់មួយនៅភាគខាងជើងនៃខេត្តឧត្តរមានជ័យ ដែលមានទេសភាពជនបទ សហគមន៍មូលដ្ឋាន និងតំបន់ធម្មជាតិដែលគួរឱ្យចាប់អារម្មណ៍។ ស្រុកត្រពាំងប្រាសាទ → ខេត្តឧត្តរមានជ័យ",
-    image: "/public/ត្រពាំងប្រាសាទ.webp",
+    image: "/public/pg3.webp",
     tags: "Google Map",
     mapLink: "https://maps.app.goo.gl/67aGvgAmmPZ7wwht9",
     link: "https://www.facebook.com/share/1JEfn9soMR/?mibextid=wwXIfr",
@@ -51,7 +51,7 @@ const places = [
     title: "ទឹកធ្លាក់អូរខៀវ ទឹកធ្លាក់ថ្មដា",
     description:
       "ទឹកធ្លាក់អូរខៀវ ជាតំបន់ធម្មជាតិមួយដែលមានទឹកហូរឆ្លងកាត់ផ្ទាំងថ្ម និងព័ទ្ធជុំវិញដោយព្រៃឈើបៃតង សាកសមសម្រាប់អ្នកដែលចូលចិត្តដើរលេង ប៉ះពាល់ធម្មជាតិ និងសម្រាកលំហែកាយ។ ភូមិរ៉ែស៊ី → ខេត្តឧត្តរមានជ័យ។",
-    image: "/public/ទឹកធ្លាក់អូរខៀវ.webp",
+    image: "/public/pg4.webp",
     tags: "Google Map",
     mapLink: "https://maps.app.goo.gl/5X8oMBwV8xNu8AKb7",
     link: "https://www.facebook.com/share/1JEfn9soMR/?mibextid=wwXIfr",
@@ -60,7 +60,7 @@ const places = [
     title: "សារ:មន្ទីប្រវត្ដិសាស្រ្ដផ្ទះតាម៉ុក",
     description:
       "សារមន្ទីរប្រវត្តិសាស្ត្រផ្ទះតាម៉ុក ជាទីតាំងដែលភ្ញៀវអាចស្វែងយល់ពីប្រវត្តិសាស្ត្ររបស់តំបន់អន្លង់វែង និងសំណល់អតីតកាលដែលពាក់ព័ន្ធនឹងប្រវត្តិសាស្ត្រកម្ពុជា។ តំបន់អន្លង់វែង ខេត្តឧត្តរមានជ័យ។",
-    image: "/public/ផ្ទះតាម៉ុក.webp",
+    image: "/public/pg6.webp",
     tags: "Google Map",
     mapLink: "https://maps.app.goo.gl/ZLabE8kDtJS9SDBs9",
     link: "https://www.facebook.com/share/1JEfn9soMR/?mibextid=wwXIfr",
@@ -69,7 +69,7 @@ const places = [
     title: "អន្លង់វែង",
     description:
       " អន្លង់វែង ជាតំបន់ប្រវត្តិសាស្ត្រដ៏សំខាន់មួយក្នុងខេត្តឧត្តរមានជ័យ ដែលមានទេសភាពធម្មជាតិ និងទីតាំងប្រវត្តិសាស្ត្រជាច្រើនសម្រាប់ភ្ញៀវទេសចរទស្សនា។ ស្រុកអន្លង់វែង ខេត្តឧត្តរមានជ័យ។",
-    image: "/public/អន្លង់វែង.webp",
+    image: "/public/pg10.webp",
     tags: "Google Map",
     mapLink: "https://maps.app.goo.gl/JiTz91fZMYYDAh8v7",
     link: "https://www.facebook.com/share/1JEfn9soMR/?mibextid=wwXIfr",
@@ -79,7 +79,7 @@ const places = [
     title: "ក្រុងសំរោង",
     description:
       "ក្រុងសំរោង គឺជាទីរួមខេត្តឧត្តរមានជ័យ ដែលជាមជ្ឈមណ្ឌលសេដ្ឋកិច្ច និងជាចំណុចចាប់ផ្តើមដ៏ងាយស្រួលសម្រាប់ធ្វើដំណើរទៅកាន់តំបន់ទេសចរណ៍នានាក្នុងខេត្ត។",
-    image: "/public/ក្រុងសំរោង.webp",
+    image: "/public/pg1.webp",
     tags: "Google Map",
     mapLink: "https://maps.app.goo.gl/r1eCWfN24fbUsfks9",
     link: "https://www.facebook.com/share/1JEfn9soMR/?mibextid=wwXIfr",
@@ -88,7 +88,7 @@ const places = [
     title: "អាតោដួងចិត្ដ",
     description:
       "អាតោដួងចិត្ត ជាសហគមន៍ទេសចរណ៍ធម្មជាតិ ដែលមានបរិយាកាសស្ងប់ស្ងាត់ និងតំបន់ព្រៃលិចទឹកដ៏ស្រស់ស្អាត សាកសមសម្រាប់អ្នកចូលចិត្តសម្រាក និងទស្សនាធម្មជាតិ។ ប្រភពទេសចរណ៍បានរៀបរាប់តំបន់នេះថា ស្ថិតនៅតំបន់ សំរោង–ចុងកាល់។",
-    image: "/public/អាតោ.webp",
+    image: "/public/pg11.webp",
     tags: "Google Map",
     mapLink: "https://maps.app.goo.gl/mCfrCXZNmew8ma2d6",
     link: "https://www.facebook.com/share/1JEfn9soMR/?mibextid=wwXIfr",
@@ -106,7 +106,7 @@ const places = [
     title: "អាតោដួងចិត្ដ",
     description:
       "អាតោដួងចិត្ត ជាសហគមន៍ទេសចរណ៍ធម្មជាតិ ដែលមានបរិយាកាសស្ងប់ស្ងាត់ និងតំបន់ព្រៃលិចទឹកដ៏ស្រស់ស្អាត សាកសមសម្រាប់អ្នកចូលចិត្តសម្រាក និងទស្សនាធម្មជាតិ។ ប្រភពទេសចរណ៍បានរៀបរាប់តំបន់នេះថា ស្ថិតនៅតំបន់ សំរោង–ចុងកាល់។",
-    image: "/public/អាតោដួងចិត្ដ.webp",
+    image: "/public/pg12.webp",
     tags: "Google Map",
     mapLink: "https://maps.app.goo.gl/s6biDyNDgGgpeKtr7",
     link: "https://www.facebook.com/share/1JEfn9soMR/?mibextid=wwXIfr",
@@ -115,7 +115,7 @@ const places = [
     title: "អាតោដួងដែក",
     description:
       "អាតោដួងដែក ជាតំបន់ធម្មជាតិមួយដែលអាចចូលទស្សនាដើម្បីស្វែងយល់ពីទេសភាព និងបរិយាកាសធម្មជាតិនៃខេត្តឧត្តរមានជ័យ។",
-    image: "/public/អាតោដួងដែក.webp",
+    image: "/public/pg13.webp",
     tags: "Google Map",
     mapLink: "https://maps.app.goo.gl/s6biDyNDgGgpeKtr7",
     link: "https://www.facebook.com/share/1JEfn9soMR/?mibextid=wwXIfr",
@@ -125,7 +125,7 @@ const places = [
     title: "ស្ពានទ័ព",
     description:
       "ស្ពានទ័ព ជាសំណង់បុរាណដែលមានតម្លៃផ្នែកប្រវត្តិសាស្ត្រ និងស្ថាបត្យកម្ម ហើយជាទីតាំងមួយដែលគួរឱ្យចាប់អារម្មណ៍សម្រាប់អ្នកចូលចិត្តស្វែងយល់ពីបេតិកភណ្ឌខ្មែរ។ ភូមិជើងទៀន → ឃុំជើងទៀន → ស្រុកចុងកាល់ → ខេត្តឧត្តរមានជ័យ",
-    image: "/public/ស្ពានទ័ព.webp",
+    image: "/public/pg9.webp",
     tags: "Google Map",
     mapLink: "https://maps.app.goo.gl/TiqzFoUqvJvH4kTy6",
     link: "https://www.facebook.com/share/1JEfn9soMR/?mibextid=wwXIfr",

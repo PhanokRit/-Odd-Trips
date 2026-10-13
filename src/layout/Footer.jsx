@@ -42,7 +42,7 @@ export const Footer = () => {
               ODDA <span className="text-highlight-scondary">Trips.</span>
             </a>
             <p className="text-sm text-mute-foreground mt-2">
-              @ {curentYear} Phanok.
+              @ {curentYear} Oddarmeachey Province Trips.
             </p>
           </div>
           {/* Link */}
