@@ -15,7 +15,7 @@ const places = [
     title: "រលុះធំ ឬដីដុះ",
     description:
       "រលុះធំ ឬ ដីដុះ ជារមណីយដ្ឋានធម្មជាតិមួយនៅតំបន់ក្រុងសំរោង ដែលមានទេសភាពធម្មជាតិប្លែក និងអាចក្លាយជាគោលដៅសម្រាប់អ្នកចូលចិត្តដើរលេង និងថតរូប។ ភូមិត្រពាំងទូង → សង្កាត់កូនក្រៀល → ក្រុងសំរោង → ខេត្តឧត្តរ",
-    image: "/public/pg2.webp",
+    image: "/pg2.webp",
     tags: "No Google Map",
     mapLink: "",
     link: "https://www.facebook.com/share/1JEfn9soMR/?mibextid=wwXIfr",
@@ -42,7 +42,7 @@ const places = [
     title: "ប្រាសាទ ត្រពាំងប្រាសាទ",
     description:
       "ត្រពាំងប្រាសាទ ជាតំបន់មួយនៅភាគខាងជើងនៃខេត្តឧត្តរមានជ័យ ដែលមានទេសភាពជនបទ សហគមន៍មូលដ្ឋាន និងតំបន់ធម្មជាតិដែលគួរឱ្យចាប់អារម្មណ៍។ ស្រុកត្រពាំងប្រាសាទ → ខេត្តឧត្តរមានជ័យ",
-    image: "/public/pg3.webp",
+    image: "/pg3.webp",
     tags: "Google Map",
     mapLink: "https://maps.app.goo.gl/67aGvgAmmPZ7wwht9",
     link: "https://www.facebook.com/share/1JEfn9soMR/?mibextid=wwXIfr",
